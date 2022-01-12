@@ -20,4 +20,5 @@ create table customer
  
 select count(*) as 'count' from customer
 select * from customer
-select city,max(grade) as 'max' from customer group by city
+select city,max(grade) as 'max grade' from customer group by city
+
